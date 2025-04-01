@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Reversi">
+        <file>chess-board.png</file>
+        <file>white.png</file>
+        <file>black.png</file>
+        <file>black_chess.png</file>
+        <file>white_chess.png</file>
+    </qresource>
+</RCC>
