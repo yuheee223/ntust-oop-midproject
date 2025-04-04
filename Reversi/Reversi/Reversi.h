@@ -12,8 +12,8 @@ public:
     Reversi(QWidget *parent = nullptr);
     ~Reversi();
 
-//public slots:
-//    void startGame();
+protected:
+    void showEvent(QShowEvent* event) override;
 
 private:
     Ui::ReversiClass ui;

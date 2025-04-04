@@ -1,295 +1,551 @@
 ﻿   Qt/MSBuild: 3.3.1.1
    Qt: 6.8.3
+  moc test.h
+  Reversi.cpp
+  main.cpp
   test.cpp
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x461 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x467 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x469 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x46a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x702 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x704 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x709 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x79f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x7a1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x7a4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x87f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x881 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x884 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xa06 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xa08 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xa09 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xa0c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xa0e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xa0f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xa12 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xc4f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xc50 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xc55 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xc56 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdcc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdcd 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdd0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdd1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdd2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdd3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdd4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdd5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdd6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x4eb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x278 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x4ed 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x279 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x4f2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x27a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x588 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x58a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x27c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x58d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x668 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x27e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x66a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x66d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x280 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x7ef 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x281 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x7f1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x282 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x7f2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x7f5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x7f7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x7f8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2cb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x7fb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xa38 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2cc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xa39 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2cf 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xa3e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2d3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xa3f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2d4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xbce 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2d5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xbcf 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x36a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xbd2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x36c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xbd3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x36e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xbd4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x36f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xbd5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x373 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xbd6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x381 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xbd7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x383 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xbd8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x385 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xbdd 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\Reversi.cpp(1,1): warning C4828: 檔案包含起始於位移 0x386 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xddb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1277 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1278 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1279 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x127b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x127f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1281 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1283 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x12b5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x12b9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x12bc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x12bf 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x12c1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x12c3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x12c4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x12c5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x12c6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1329 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x132b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x132d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1330 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1333 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1334 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1335 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1336 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1337 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x133b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x133c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1356 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x135a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x135c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x135d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1362 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1364 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1366 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1368 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x136a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x136c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x136d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x13af 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x13b0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x13b1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x13b9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x13c1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x13c2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x13c3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x13c5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x13c7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x13c8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x13ff 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1404 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1407 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1408 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1409 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x140a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14f1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14f3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14f4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14f5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14fa 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14fd 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14fe 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14ff 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1500 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1514 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1516 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1517 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x151a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x151b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x151c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x151e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x151f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1520 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1521 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1524 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1525 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1528 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1529 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x152c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x152d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1530 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1534 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x15cc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x15ce 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x15d0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x15d3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x15d6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x15d7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x15d8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x15d9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x15dc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1635 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1636 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1639 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x163d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x163e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x163f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1643 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1645 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1647 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1649 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x164b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x164e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x164f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1651 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xddf 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xde1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xde2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xde3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xde4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xde7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xde9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdea 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdeb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xded 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdef 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xdf1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe20 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe22 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe24 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe26 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe28 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe2a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe2c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe2e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe30 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe31 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe32 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe34 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe38 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0xe39 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x10f3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x10f5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x10f7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x10f8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x11f3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x11f5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x11f6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x11f7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x11f8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x11f9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x11fa 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1224 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1226 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1227 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x136e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1370 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1373 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1374 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14b1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14b3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14b5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14b6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14ba 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14bb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14bd 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14bf 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14c1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14c3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14c4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14c5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14c7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14c8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14cb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14cf 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x14d0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1538 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1539 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x153d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x153e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x153f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1604 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1606 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x160b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x160e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x16ba 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x16bb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x16bc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x16be 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x16bf 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x16c2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x16c4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1726 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1728 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1729 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x172a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x172e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x172f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1730 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1733 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1736 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x17be 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x17c0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x17c1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x17c2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1835 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1837 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1838 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1839 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x183b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x183c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x183d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x197b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x197d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x197e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1981 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1982 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1983 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1984 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1985 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1989 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19e0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19e1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19e2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19e3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19e6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19e9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19ec 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19ed 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19ee 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a41 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a43 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a44 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a45 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a46 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a49 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a4b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a4d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a4f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a51 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x16c6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x16f8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x16fc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x16ff 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1702 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1704 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1706 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1707 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1708 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1709 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x176c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x176e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1770 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1773 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1776 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1777 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1778 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1779 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x177a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x177e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x177f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1799 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x179b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x179d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x179e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x17a1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x17a3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x17a4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x17f7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x17fb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x17fd 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x17fe 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1803 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1805 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1807 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1809 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x180b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x180d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x180e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1850 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1851 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1852 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x185a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1862 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1863 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1864 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1866 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1868 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1869 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x18a0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x18a5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x18a8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x18a9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x18aa 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x18ab 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1992 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1994 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1995 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1996 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x199b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x199e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x199f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19a0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19a1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19b5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19b7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19b8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19bb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19bc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19bd 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19bf 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19c0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19c1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19c2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19c5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19c6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19c9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19ca 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19cd 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19ce 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19d1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x19d5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a6d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a6f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a71 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a74 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a77 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a78 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a79 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a7a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a7c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a7e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a80 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a83 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a86 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a87 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a88 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a89 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a8c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a90 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a91 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a92 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a94 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a98 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a9a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a9c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a9f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ad0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ad2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1a7d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ad6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ad7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ad8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ad9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ada 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ade 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1afb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1afc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1b01 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1b02 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1b03 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1b04 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1b05 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1b09 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1d52 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1d53 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1d57 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1d58 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1d5a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1d5b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1d5d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1dba 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1dbb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1dbc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1dbd 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1dc0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1dc7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1dc8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1dc9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1dca 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1dcd 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e58 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1adf 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ae0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ae4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ae6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ae8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1aea 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1aec 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1aef 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1af0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1af2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1b5f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1b60 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1b65 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1bc7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1bc9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1bca 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1bcb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1bcf 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1bd0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1bd1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1bd4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1bd7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1c5f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1c61 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1c62 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1c63 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e59 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e5a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e5b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e5c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e5d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e5f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e62 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e63 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f62 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f63 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f64 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f68 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e65 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e66 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1e67 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1eba 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ebc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ebd 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ebe 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ebf 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ec2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ec4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ec6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1ec8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1eca 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f28 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f29 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f2e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f2f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f30 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f31 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f32 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f36 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f69 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f6b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f6d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f71 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f72 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f73 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f74 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f77 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f78 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x1f79 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2073 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2074 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2075 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2077 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2079 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x207b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x207d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x207e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x207f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2083 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2084 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2085 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x211b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2121 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2122 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2123 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2127 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2129 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2147 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2149 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x214a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x214b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x214c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x214d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x214e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
 C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x214f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1c6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1c7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1ca 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2bc 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2be 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2c0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2c2 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2c3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2c4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2c7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2e9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2ea 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2f1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2f3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x2f4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x32b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x32d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x332 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x334 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x407 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x408 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x409 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x40b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x40d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x40e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x431 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x433 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x434 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x437 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x438 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
-C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4ae 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2150 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2151 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2152 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2176 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2177 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x217b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x217c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x217d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2292 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2293 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2294 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x2296 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x229a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x229c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x22d7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x22d9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x22da 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x22db 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x22dd 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x22e1 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.cpp(1,1): warning C4828: 檔案包含起始於位移 0x22e3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x22d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x22e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x231 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x23a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x23b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3b7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3b9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3be 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3c0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x47f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x481 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x490 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x491 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x492 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x493 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x494 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x495 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4eb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4ed 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4ee 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x511 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x513 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x514 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x517 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x518 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x576 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x577 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x57e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x57f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x22d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x22e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x231 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x23a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x23b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3b7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3b9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3be 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3c0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x47f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x481 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x490 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x491 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x492 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x493 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x494 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x495 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4eb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x22d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x22e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4ed 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x231 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x23a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4ee 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x23b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3b7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x511 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3b9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3be 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x513 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3c0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x47f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x514 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x481 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x517 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x518 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x576 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x577 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x57e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x490 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x57f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 main.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x491 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x492 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x493 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x494 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x495 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4eb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4ed 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4ee 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x511 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x513 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x514 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x517 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x518 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x576 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x577 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x57e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x57f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 Reversi.cpp)
+  moc_Reversi.cpp
+  moc_test.cpp
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x22d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x22e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x231 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x23a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x23b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3b7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3b9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3be 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3c0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x47f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x481 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x490 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x491 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x492 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x493 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x494 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x495 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4eb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4ed 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4ee 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x511 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x513 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x514 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x517 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x518 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x576 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x577 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x57e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x57f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_test.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1d9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e3 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e4 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e5 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x1e6 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x22d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x22e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x231 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x23a 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x23b 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3b7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3b9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3be 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x3c0 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x47f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x481 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48c 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48d 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x48f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x490 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x491 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x492 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x493 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x494 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x495 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e7 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e8 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4e9 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4eb 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4ed 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x4ee 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x511 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x513 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x514 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x517 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x518 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x576 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x577 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x57e 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
+C:\training\C++\Reversi\Reversi\test.h(1,1): warning C4828: 檔案包含起始於位移 0x57f 的字元，在目前的來源字元集 (字碼頁 65001) 中不是合法的字元。 (正在編譯原始程式檔 x64\Debug\qt\moc\moc_Reversi.cpp)
   Reversi.vcxproj -> C:\training\C++\Reversi\x64\Debug\Reversi.exe

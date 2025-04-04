@@ -93,10 +93,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp" />
-    <ClCompile Include="ReversiInput.cpp" />
-    <ClCompile Include="ReversiContext.cpp" />
-    <ClCompile Include="ReversiGame.cpp" />
-    <ClCompile Include="ReversiView.cpp" />
     <QtRcc Include="Reversi.qrc" />
     <QtUic Include="Reversi.ui" />
     <QtMoc Include="Reversi.h" />
@@ -105,13 +101,7 @@
     <QtUic Include="test.ui" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IReversiContext.h" />
-    <ClInclude Include="IReversiInput.h" />
-    <ClInclude Include="IReversiView.h" />
     <QtMoc Include="test.h" />
-    <ClInclude Include="ReversiContext.h" />
-    <ClInclude Include="ReversiDefine.h" />
-    <ClInclude Include="ReversiGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

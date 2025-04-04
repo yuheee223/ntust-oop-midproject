@@ -5,7 +5,7 @@
 #include <QPushButton>
 #include <QLabel>
 #include "ui_test.h"
-//#include "ReversiContext.h"
+#include "Reversi.h" 
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Form; } 
@@ -14,13 +14,15 @@ QT_END_NAMESPACE
 //namespace Ui {
 //    class test;
 //}
+class Reversi;
 
 class test : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    test(QWidget* parent = nullptr);
+    //test(QWidget* parent = nullptr);
+    explicit test(Reversi* reversiParent, QWidget* parent = nullptr);  // 傳遞 Reversi 視窗
     ~test();
 
     enum boardStatus{Empty, Black, White};
@@ -31,17 +33,21 @@ public:
     void showScore();
     int judgeRole(int x, int y, void *board, boardStatus currentRole, bool eatChess = true, int gridNum = 8);
 
-private slots:
-   void onCellClicked();  // 處理點擊事件
-  // void updateBoard();    // 更新棋盤顯示
+    void saveBoardState();  
+    void loadBoardState();  
+    static bool isSave ;
+    
+    bool hasValidMove(boardStatus currentRole);
 
 protected:
     void paintEvent(QPaintEvent *); //畫棋盤+旗子
     void mousePressEvent(QMouseEvent *);
     void mouseMoveEvent(QMouseEvent *); //move window
+    void onExitClicked();
 
 private:
     Ui::Form* ui;
+    Reversi* reversiWindow;  // 保存 Reversi 視窗的指標
     QPoint p;
     //int role = Black;
     boardStatus role = Black;
@@ -51,10 +57,8 @@ private:
 
     //每格寬高
     int gridW, gridH;
-    int board[8][8];
+    boardStatus board[8][8];
 
-    QGridLayout* gridLayout;
-    QPushButton* cells[8][8];  // 8x8 棋盤
-    QLabel* statusLabel;
-    // Reversi::ReversiContext context;
+    boardStatus savedBoard[8][8]; //紀錄棋盤位置
+    boardStatus savedRole;
 };

@@ -37,41 +37,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ReversiContext.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ReversiGame.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ReversiInput.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ReversiView.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="IReversiContext.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IReversiInput.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IReversiView.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ReversiContext.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ReversiDefine.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ReversiGame.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Reversi.h">

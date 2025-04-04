@@ -1,14 +1,17 @@
 #include "test.h"
 #include "ui_test.h"
+#include "Reversi.h"
 #include <QPaintEvent>
 #include <QPainter>
 #include <QMouseEvent>
+#include < QMessageBox>
 #include <QDebug>
 #define cout qDebug()
 
+bool test::isSave = false;
 
-test::test(QWidget* parent)
-    : QMainWindow(parent), ui(new Ui::Form)  
+test::test(Reversi* reversiParent, QWidget* parent)
+    : QMainWindow(parent), ui(new Ui::Form), reversiWindow(reversiParent)
 {
     ui->setupUi(this);  
     this->setWindowTitle("Reversi");
@@ -23,38 +26,16 @@ test::test(QWidget* parent)
 
     initBoard();
 
+    //connect(ui->exit_btn, &QPushButton::clicked, this, &test::onExitClicked);
+    //connect(ui->exit_btn, &QPushButton::clicked, this, &QWidget::close);
+    connect(ui->exit_btn, &QPushButton::clicked, this, &test::onExitClicked);
+    connect(ui->save_btn, &QPushButton::clicked, this, &test::saveBoardState);
 
-    //reversi* Reversi = new Reversi;
+}
 
-    //QWidget* centralWidget = new QWidget(this);
-    //setCentralWidget(centralWidget);
-
-    //gridLayout = new QGridLayout(centralWidget);
-
-    //for (int i = 0; i < 8; ++i) {
-    //    for (int j = 0; j < 8; ++j) {
-    //        cells[i][j] = new QPushButton(this);
-    //        cells[i][j]->setFixedSize(50, 50);
-    //        gridLayout->addWidget(cells[i][j], i, j);
-    //        connect(cells[i][j], &QPushButton::clicked, this, &test::onCellClicked);
-    //    }
-    //}
-    //gridLayout->addWidget(statusLabel, 8, 0, 1, 8);
-
-    //// 創建退出按鈕
-    //QPushButton* exit_btn = new QPushButton("EXIT", this);
-    //exit_btn->setObjectName("exit_btn");
-    //exit_btn->setGeometry(QRect(170, 320, 80, 25));
-
-    //QFont font;
-    //font.setFamilies({ QString::fromUtf8("Lucida Console") });
-    //font.setPointSize(10);
-    //exit_btn->setFont(font);
-
-    //gridLayout->addWidget(exit_btn, 9, 0, 1, 8);   
-    
-    connect(ui->exit_btn, &QPushButton::clicked, this, &QWidget::close);
-
+void test::onExitClicked() {
+    this->hide();  
+    reversiWindow->show();  
 }
 
 test::~test()
@@ -114,8 +95,6 @@ void test::mousePressEvent(QMouseEvent *e) {
             update();
         }
         
-
-
     }
 
 }
@@ -127,6 +106,8 @@ void test::mouseMoveEvent(QMouseEvent *e) {
 }
 
 void test::initBoard() {
+    test::isSave = false;
+
     for (int i = 0; i < 8; i++) {
         for (int j = 0; j < 8; j++) {
             board[i][j] = Empty;
@@ -158,6 +139,21 @@ void test::changeRole() {
         ui->white_label->hide();
     }
 
+    // 檢查新角色是否有合法步驟
+    if (!hasValidMove(role)) {
+        // 若無合法步驟，則換回原角色
+        if (role == Black) {
+            role = White;
+            ui->black_label->hide();
+            ui->white_label->show();
+        }
+        else {
+            role = Black;
+            ui->black_label->show();
+            ui->white_label->hide();
+        }
+    }
+
     showScore();
 }
 
@@ -178,9 +174,58 @@ void test::showScore() {
 
     ui->black_num->display(b);
     ui->white_num->display(w);
+
+
+    //判斷輸贏
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+            if (judgeRole(i, j, board, Black, false) > 0 || judgeRole(i, j, board, White, false) > 0) {
+                return;
+            }
+        }
+    }
+
+    // 遊戲結束
+    QString resultMessage;
+    // save被更新
+    test::isSave = false;
+
+    if (w > b) {
+        cout << "white win";
+        resultMessage = "White Wins!";
+    }
+    else if (b > w) {
+        cout << "black win";
+        resultMessage = "Black Wins!";
+    }
+    else {
+        cout << "score tied";
+        resultMessage = "Score Tie!";
+    }
+
+    // 顯示結果
+    QMessageBox msgBox;
+    msgBox.setWindowTitle("Game Over");
+    msgBox.setText(resultMessage);
+    msgBox.setIcon(QMessageBox::Information);
+
+    QPushButton* restartButton = msgBox.addButton("Restart", QMessageBox::ActionRole);
+    msgBox.addButton(QMessageBox::Close);
+
+    msgBox.exec();
+
+    // 如果按下重新開始，重新初始化遊戲
+    if (msgBox.clickedButton() == restartButton) {
+        initBoard();  
+        showScore();  // 更新分數
+        ui->black_label->show(); 
+        ui->white_label->hide(); 
+    }
+
 }
 
 int test::judgeRole(int x, int y, void* board, boardStatus currentRole, bool eatChess, int gridNum) {
+    // 設定 8 個方向
     int dir[8][2] = { {1,0},{1,-1},{0,-1},{-1,-1},{-1,0},{-1,1},{0,1},{1,1} };
     int tmpX = x, tmpY = y;
     int i = 0, eatNum = 0;
@@ -194,7 +239,10 @@ int test::judgeRole(int x, int y, void* board, boardStatus currentRole, bool eat
         return 0;  // 如果該位置不為空，返回 0
     }
 
-    // 2. 檢查周圍位置是否可以吃棋
+    // 2. 設定對手顏色
+    boardStatus opponent = (currentRole == Black) ? White : Black;
+
+    // 3. 檢查周圍位置是否可以吃棋
     for (i = 0; i < 8; i++) {
         tmpX = x; tmpY = y;  // 重置 tmpX 和 tmpY 為起始位置
         tmpX += dir[i][0]; tmpY += dir[i][1];  // 根據方向移動
@@ -217,14 +265,14 @@ int test::judgeRole(int x, int y, void* board, boardStatus currentRole, bool eat
                         while ((tmpX != x) || (tmpY != y)) {
                             chessBoard[tmpX][tmpY] = currentRole;  // 吃掉棋子
                             tmpX -= dir[i][0]; tmpY -= dir[i][1];
-                            eatNum++;  // 吃掉一顆棋子
+                            eatNum++;
                         }
                     }
                     else {
                         tmpX -= dir[i][0]; tmpY -= dir[i][1];
                         while ((tmpX != x) || (tmpY != y)) {
                             tmpX -= dir[i][0]; tmpY -= dir[i][1];
-                            eatNum++;  // 計算吃掉的棋子數量
+                            eatNum++;
                         }
                     }
                     break;  // 停止這個方向的檢查
@@ -232,71 +280,54 @@ int test::judgeRole(int x, int y, void* board, boardStatus currentRole, bool eat
                 tmpX += dir[i][0]; tmpY += dir[i][1];  // 沒有找到，繼續搜尋
             }
         }
-        // 如果這個方向不能吃棋，重新檢查下一個方向
     }
 
-    cout << "eat: " << eatNum;  // 顯示吃掉的棋子數量
+    cout << "eat: " << eatNum;
     return eatNum;  // 返回吃掉的棋子數量
 }
 
 
-
-//void test::updateBoard()
-//{
-//    for (int i = 0; i < 8; ++i) {
-//        for (int j = 0; j < 8; ++j) {
-//            switch (context.GetSlotStatus(i, j)) {
-//            case test::SLOT_STATUS::EMPTY:
-//                cells[i][j]->setText("");
-//                break;
-//            case test::SLOT_STATUS::BLACK:
-//                cells[i][j]->setText("B");
-//                break;
-//            case test::SLOT_STATUS::WHITE:
-//                cells[i][j]->setText("W");
-//                break;
-//            }
-//        }
-//    }
-//
-//    // 更新狀態標籤
-//    statusLabel->setText((context.GetCurrentState() == test::GAME_STATE::BLACK_TURN) ? "輪到黑子" : "輪到白子");
-//}
-
-void test::onCellClicked()
-{
-    QPushButton* btn = qobject_cast<QPushButton*>(sender());
-    if (!btn) return;
-
-    // 找出按鈕座標
-    int row, col;
-    for (int i = 0; i < 8; ++i) {
-        for (int j = 0; j < 8; ++j) {
-            if (cells[i][j] == btn) {
-                row = i;
-                col = j;
-                break;
-            }
+void test::saveBoardState() {
+    // 儲存棋盤的當前狀態
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+            savedBoard[i][j] = board[i][j];
         }
     }
 
-    //// 嘗試下棋
-    //Reversi::PLAYER_COLOR currentPlayer =
-    //    (context.GetCurrentState() == Reversi::GAME_STATE::BLACK_TURN) ?
-    //    Reversi::PLAYER_COLOR::BLACK : Reversi::PLAYER_COLOR::WHITE;
-
-    //if (context.IsValidMove(row, col, currentPlayer)) {
-    //    context.SetSlotStatus(row, col, (currentPlayer == Reversi::PLAYER_COLOR::BLACK) ?
-    //        Reversi::SLOT_STATUS::BLACK : Reversi::SLOT_STATUS::WHITE);
-    //    context.FlipDisks(row, col);
-
-    //    // 切換玩家
-    //    context.SetCurrentState((currentPlayer == Reversi::PLAYER_COLOR::BLACK) ?
-    //        Reversi::GAME_STATE::WHITE_TURN :
-    //        Reversi::GAME_STATE::BLACK_TURN);
-    //}
-
-    // updateBoard();
-   // statusLabel = new QLabel("yessss!", this);
+    savedRole = role;
+    isSave = true;
+    cout << "save";
 }
 
+void test::loadBoardState() {
+    // 載入已儲存的棋盤狀態
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+            board[i][j] = savedBoard[i][j];
+        }
+    }
+
+    // 讓 Qt 重新繪製棋盤
+    update();
+
+    // 設定當前角色 
+    role = savedRole;
+
+    // 更新分數
+    showScore();
+
+    cout << "load";
+}
+
+
+bool test::hasValidMove(boardStatus currentRole) {
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+            if (judgeRole(i, j, board, currentRole, false) > 0) {
+                return true;  // 有可行的步驟
+            }
+        }
+    }
+    return false;  // 沒有可行的步驟
+}
