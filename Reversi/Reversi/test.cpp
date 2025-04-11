@@ -24,12 +24,24 @@ test::test(Reversi* reversiParent, QWidget* parent)
     gridW = (end.x() - start.x()) / 8;
     gridH = (end.y() - start.y()) / 8;
 
+    // 新增 SwitchButton
+    switchBtn = new SwitchButton(this);
+    switchBtn->setFixedWidth(90);
+    switchBtn->setTextOn("Hint On");
+    switchBtn->setTextOff("Hint Off");
+    switchBtn->move(width() - 100, 30); 
+    switchBtn->resize(60, 30); 
+    switchBtn->show();
+
+
     initBoard();
 
     //connect(ui->exit_btn, &QPushButton::clicked, this, &test::onExitClicked);
     //connect(ui->exit_btn, &QPushButton::clicked, this, &QWidget::close);
     connect(ui->exit_btn, &QPushButton::clicked, this, &test::onExitClicked);
     connect(ui->save_btn, &QPushButton::clicked, this, &test::saveBoardState);
+
+    connect(switchBtn, &SwitchButton::statusChanged, this, &test::onSwitchChanged);
 
 }
 
@@ -63,8 +75,17 @@ void test::paintEvent(QPaintEvent*) {
                 p.drawPixmap(start.x() + i * gridW, start.y() + j * gridH, gridW - 2, gridH + 6, QPixmap(":/Reversi/white_chess.png"));
 
             }
+
+            // 畫出提示位置
+            if (hintBoard[i][j] == Hint) {
+                // 畫灰色的提示格子，這裡可以選擇使用半透明的灰色
+                p.setBrush(QColor(192, 192, 192, 100));  // 半透明灰色
+                p.drawRect(start.x() + i * gridW + 1, start.y() + j * gridH + 1, gridW - 2, gridH - 2);  // 畫出提示框
+            }
         }
     }
+
+
 }
 
 void test::mousePressEvent(QMouseEvent *e) {
@@ -90,6 +111,7 @@ void test::mousePressEvent(QMouseEvent *e) {
 
         if (judgeRole(i ,j, board, role) > 0) {
             this->changeRole();
+            printHintBoard();
 
             //更新地圖
             update();
@@ -138,6 +160,11 @@ void test::changeRole() {
         ui->black_label->show();
         ui->white_label->hide();
     }
+
+    if (switchBtn->checked()) {
+        showHintMoves();
+    }
+
 
     // 檢查新角色是否有合法步驟
     if (!hasValidMove(role)) {
@@ -330,4 +357,53 @@ bool test::hasValidMove(boardStatus currentRole) {
         }
     }
     return false;  // 沒有可行的步驟
+}
+
+void test::showHintMoves() {
+    // 設置所有格子為 Other
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+            hintBoard[i][j] = Other;
+        }
+    }
+
+    // 計算所有可以吃掉對方棋子的格子
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+            if (judgeRole(i, j, board, role, false) > 0) {
+                hintBoard[i][j] = Hint;  // 設置為提示格子
+            }
+        }
+    }
+}
+
+void test::onSwitchChanged(bool checked) {
+    if (checked) {
+        showHintMoves();  // 當開啟提示時，計算提示
+    }
+    else {
+        // 當關閉提示時，清空提示
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                hintBoard[i][j] = Other;
+            }
+        }
+    }
+
+    update();  // 更新畫面
+}
+
+void test::printHintBoard() {
+    qDebug() << "Hint Board:";
+    for (int j = 0; j < 8; j++) { // y-row
+        QString row;
+        for (int i = 0; i < 8; i++) { // x-col
+            if (hintBoard[i][j] == Hint) {
+                row += "H ";
+            }else if (hintBoard[i][j] == Other)
+                row += "O ";
+
+        }
+        qDebug() << row;
+    }
 }

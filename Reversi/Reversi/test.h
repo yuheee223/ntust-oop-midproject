@@ -6,6 +6,7 @@
 #include <QLabel>
 #include "ui_test.h"
 #include "Reversi.h" 
+#include "SwitchButton.h" 
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Form; } 
@@ -26,6 +27,11 @@ public:
     ~test();
 
     enum boardStatus{Empty, Black, White};
+    enum HintStatus {
+        Other = 0,
+        Hint = 1 
+    };
+
 
     //ªì©l¤Æ¶Â¥Õ´Ñª¬ºA
     void initBoard();
@@ -39,11 +45,15 @@ public:
     
     bool hasValidMove(boardStatus currentRole);
 
+    void showHintMoves();
+    void printHintBoard();
+
 protected:
     void paintEvent(QPaintEvent *); //µe´Ñ½L+ºX¤l
     void mousePressEvent(QMouseEvent *);
     void mouseMoveEvent(QMouseEvent *); //move window
     void onExitClicked();
+    void onSwitchChanged(bool checked);
 
 private:
     Ui::Form* ui;
@@ -61,4 +71,7 @@ private:
 
     boardStatus savedBoard[8][8]; //¬ö¿ý´Ñ½L¦ì¸m
     boardStatus savedRole;
+
+    SwitchButton* switchBtn;
+    HintStatus hintBoard[8][8];
 };
