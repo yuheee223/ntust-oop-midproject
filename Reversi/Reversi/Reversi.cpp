@@ -22,9 +22,12 @@ Reversi::Reversi(QWidget *parent)
     connect(ui.game_start_btn, &QPushButton::clicked, [test_test]() {
         if (test_test->isSave) {  
             test_test->loadBoardState();  // 載入儲存的棋盤
+            test_test->onSwitchChanged(test_test->hintStatus);
         }
         else {
             test_test->initBoard();  // 初始化新的棋盤
+            test_test->switchBtn->setChecked(false);
+            test_test->onSwitchChanged(false);
         }
         });
 

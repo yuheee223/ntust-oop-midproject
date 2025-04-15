@@ -3,6 +3,7 @@
 #include <QtWidgets/QMainWindow>
 #include "ui_Reversi.h"
 #include "test.h"
+#include "SwitchButton.h" 
 
 class Reversi : public QMainWindow
 {

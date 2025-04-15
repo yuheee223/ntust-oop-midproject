@@ -42,18 +42,20 @@ public:
     void saveBoardState();  
     void loadBoardState();  
     static bool isSave ;
+    static bool hintStatus;
     
     bool hasValidMove(boardStatus currentRole);
 
     void showHintMoves();
     void printHintBoard();
+    SwitchButton* switchBtn;
+    void onSwitchChanged(bool checked);
 
 protected:
     void paintEvent(QPaintEvent *); //µe´Ñ½L+ºX¤l
     void mousePressEvent(QMouseEvent *);
     void mouseMoveEvent(QMouseEvent *); //move window
     void onExitClicked();
-    void onSwitchChanged(bool checked);
 
 private:
     Ui::Form* ui;
@@ -72,6 +74,5 @@ private:
     boardStatus savedBoard[8][8]; //¬ö¿ý´Ñ½L¦ì¸m
     boardStatus savedRole;
 
-    SwitchButton* switchBtn;
     HintStatus hintBoard[8][8];
 };

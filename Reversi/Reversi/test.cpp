@@ -9,6 +9,7 @@
 #define cout qDebug()
 
 bool test::isSave = false;
+bool test::hintStatus = false;
 
 test::test(Reversi* reversiParent, QWidget* parent)
     : QMainWindow(parent), ui(new Ui::Form), reversiWindow(reversiParent)
@@ -85,7 +86,6 @@ void test::paintEvent(QPaintEvent*) {
         }
     }
 
-
 }
 
 void test::mousePressEvent(QMouseEvent *e) {
@@ -115,6 +115,23 @@ void test::mousePressEvent(QMouseEvent *e) {
 
             //更新地圖
             update();
+
+
+            // printboard
+            qDebug() << "Board:";
+            for (int j = 0; j < 8; j++) { // y-row
+                QString row;
+                for (int i = 0; i < 8; i++) { // x-col
+                    if (board[i][j] == White) {
+                        row += "W ";
+                    }
+                    else if (board[i][j] == Black)
+                        row += "B ";
+                    else if (board[i][j] == Empty)
+                        row += "O ";
+                }
+                qDebug() << row;
+            }
         }
         
     }
@@ -309,7 +326,7 @@ int test::judgeRole(int x, int y, void* board, boardStatus currentRole, bool eat
         }
     }
 
-    cout << "eat: " << eatNum;
+   // cout << "eat: " << eatNum;
     return eatNum;  // 返回吃掉的棋子數量
 }
 
@@ -323,6 +340,7 @@ void test::saveBoardState() {
     }
 
     savedRole = role;
+    hintStatus = switchBtn->checked();
     isSave = true;
     cout << "save";
 }
@@ -335,6 +353,9 @@ void test::loadBoardState() {
         }
     }
 
+
+    switchBtn->setChecked(hintStatus);
+
     // 讓 Qt 重新繪製棋盤
     update();
 
@@ -343,6 +364,16 @@ void test::loadBoardState() {
 
     // 更新分數
     showScore();
+
+    // 更新label
+    if (role == Black) {
+        ui->black_label->show();
+        ui->white_label->hide();
+    }
+    else {
+        ui->black_label->hide();
+        ui->white_label->show();
+    }
 
     cout << "load";
 }

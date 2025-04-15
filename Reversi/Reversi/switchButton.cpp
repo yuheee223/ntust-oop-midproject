@@ -8,7 +8,6 @@ SwitchButton::SwitchButton(QWidget* parent) : QWidget(parent)
     m_radius = 5;
     m_checked = false;
     m_showText = true;
-    //m_showText = false;
     m_animation = true;
 
     m_bgColorOn = QColor(21, 156, 119);
